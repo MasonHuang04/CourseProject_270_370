@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Sun Jul  6 11:30:28 2025
+# Process ID: 27684
+# Current directory: E:/Document_HH/ECE370/lab4
+# Command line: vivado.exe -mode batch -source -
+# Log file: E:/Document_HH/ECE370/lab4/vivado.log
+# Journal file: E:/Document_HH/ECE370/lab4\vivado.jou
+# Running On: LAPTOP-5EVVVS7M, OS: Windows, CPU Frequency: 2995 MHz, CPU Physical cores: 14, Host memory: 33968 MB
+#-----------------------------------------------------------
+open_project -

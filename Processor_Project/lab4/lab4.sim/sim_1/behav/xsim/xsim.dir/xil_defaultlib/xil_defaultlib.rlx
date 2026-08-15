@@ -1,0 +1,25 @@
+0.7
+2020.2
+Oct 13 2023
+20:47:58
+E:/Document_HH/ECE370/lab4/lab4.sim/sim_1/behav/xsim/glbl.v,1697210495,verilog,,,,glbl,,,,,,,,
+E:/Document_HH/ECE370/lab4/lab4.srcs/sim_1/new/Lab4_testbench.v,1752132534,verilog,,,,singleCycleTest,,,,,,,,
+E:/Document_HH/ECE370/lab4/lab4.srcs/sim_1/new/vivado_test.v,1751789837,verilog,,,,vivado_test,,,,,,,,
+E:/Document_HH/ECE370/lab4/lab4.srcs/sources_1/new/ALU.v,1751689832,verilog,,E:/Document_HH/ECE370/lab4/lab4.srcs/sources_1/new/ALU_Control.v,,ALU,,,,,,,,
+E:/Document_HH/ECE370/lab4/lab4.srcs/sources_1/new/ALU_Control.v,1751689832,verilog,,E:/Document_HH/ECE370/lab4/lab4.srcs/sources_1/new/AddSum.v,,ALU_control,,,,,,,,
+E:/Document_HH/ECE370/lab4/lab4.srcs/sources_1/new/AddSum.v,1751689832,verilog,,E:/Document_HH/ECE370/lab4/lab4.srcs/sources_1/new/Control.v,,AddSum,,,,,,,,
+E:/Document_HH/ECE370/lab4/lab4.srcs/sources_1/new/Control.v,1752133270,verilog,,E:/Document_HH/ECE370/lab4/lab4.srcs/sources_1/new/Control_hazard.v,,Control_instruction_1_6,,,,,,,,
+E:/Document_HH/ECE370/lab4/lab4.srcs/sources_1/new/Control_hazard.v,1751787740,verilog,,E:/Document_HH/ECE370/lab4/lab4.srcs/sources_1/new/Data_memory.v,,Control_Hazard,,,,,,,,
+E:/Document_HH/ECE370/lab4/lab4.srcs/sources_1/new/Data_memory.v,1751789615,verilog,,E:/Document_HH/ECE370/lab4/lab4.srcs/sources_1/new/EX_MEM.v,,DataMemory,,,,,,,,
+E:/Document_HH/ECE370/lab4/lab4.srcs/sources_1/new/EX_MEM.v,1751718103,verilog,,E:/Document_HH/ECE370/lab4/lab4.srcs/sources_1/new/Forwarding_unit.v,,Reg_Ex_Mem,,,,,,,,
+E:/Document_HH/ECE370/lab4/lab4.srcs/sources_1/new/Forwarding_unit.v,1752137022,verilog,,E:/Document_HH/ECE370/lab4/lab4.srcs/sources_1/new/ID_EX_REG.v,,Forwarding_unit,,,,,,,,
+E:/Document_HH/ECE370/lab4/lab4.srcs/sources_1/new/ID_EX_REG.v,1751780826,verilog,,E:/Document_HH/ECE370/lab4/lab4.srcs/sources_1/new/IF_ID_REG.v,,ID_EX_REG,,,,,,,,
+E:/Document_HH/ECE370/lab4/lab4.srcs/sources_1/new/IF_ID_REG.v,1751717208,verilog,,E:/Document_HH/ECE370/lab4/lab4.srcs/sources_1/new/ImmGen.v,,IF_ID_stateReg,,,,,,,,
+E:/Document_HH/ECE370/lab4/lab4.srcs/sources_1/new/ImmGen.v,1751689832,verilog,,E:/Document_HH/ECE370/lab4/lab4.srcs/sources_1/new/Instruction_Memory.v,,ImmGen,,,,,,,,
+E:/Document_HH/ECE370/lab4/lab4.srcs/sources_1/new/Instruction_Memory.v,1752135629,verilog,,E:/Document_HH/ECE370/lab4/lab4.srcs/sources_1/new/Load_Hazard_control.v,,InstructionMemory,,,,,,,,
+E:/Document_HH/ECE370/lab4/lab4.srcs/sources_1/new/Load_Hazard_control.v,1751723858,verilog,,E:/Document_HH/ECE370/lab4/lab4.srcs/sources_1/new/MEM_WB.v,,Data_Hazard_Control,,,,,,,,
+E:/Document_HH/ECE370/lab4/lab4.srcs/sources_1/new/MEM_WB.v,1751131099,verilog,,E:/Document_HH/ECE370/lab4/lab4.srcs/sources_1/new/Memory_Address_Hazard.v,,MEM_WB_Reg,,,,,,,,
+E:/Document_HH/ECE370/lab4/lab4.srcs/sources_1/new/Memory_Address_Hazard.v,1751780826,verilog,,E:/Document_HH/ECE370/lab4/lab4.srcs/sources_1/new/Mux.v,,Memory_Address_Hazard,,,,,,,,
+E:/Document_HH/ECE370/lab4/lab4.srcs/sources_1/new/Mux.v,1751715926,verilog,,E:/Document_HH/ECE370/lab4/lab4.srcs/sources_1/new/PipelineProcessor.v,,Mux_double;mux,,,,,,,,
+E:/Document_HH/ECE370/lab4/lab4.srcs/sources_1/new/PipelineProcessor.v,1752308470,verilog,,E:/Document_HH/ECE370/lab4/lab4.srcs/sources_1/new/Registers.v,,PipelineProcessor,,,,,,,,
+E:/Document_HH/ECE370/lab4/lab4.srcs/sources_1/new/Registers.v,1751720400,verilog,,E:/Document_HH/ECE370/lab4/lab4.srcs/sim_1/new/Lab4_testbench.v,,RegFile;satisfy_branch,,,,,,,,

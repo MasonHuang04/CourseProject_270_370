@@ -1,0 +1,16 @@
+#-----------------------------------------------------------
+# Vivado v2023.2.2 (64-bit)
+# SW Build 4126759 on Thu Feb  8 23:53:51 MST 2024
+# IP Build 4126054 on Fri Feb  9 11:39:09 MST 2024
+# SharedData Build 4115275 on Tue Jan 30 00:40:57 MST 2024
+# Start of session at: Fri Dec  6 12:25:43 2024
+# Process ID: 8968
+# Current directory: C:/Users/admin/Desktop/Project_final/project_7
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent24192 C:\Users\admin\Desktop\Project_final\project_7\project_7.xpr
+# Log file: C:/Users/admin/Desktop/Project_final/project_7/vivado.log
+# Journal file: C:/Users/admin/Desktop/Project_final/project_7\vivado.jou
+# Running On: LAPTOP-5EVVVS7M, OS: Windows, CPU Frequency: 2995 MHz, CPU Physical cores: 14, Host memory: 33968 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/admin/Desktop/Project_final/project_7/project_7.xpr
+update_compile_order -fileset sources_1

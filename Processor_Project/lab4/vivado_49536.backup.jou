@@ -1,0 +1,68 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Sun Jul  6 16:06:39 2025
+# Process ID: 49536
+# Current directory: E:/Document_HH/ECE370/lab4
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent48836 E:\Document_HH\ECE370\lab4\lab4.xpr
+# Log file: E:/Document_HH/ECE370/lab4/vivado.log
+# Journal file: E:/Document_HH/ECE370/lab4\vivado.jou
+# Running On: LAPTOP-5EVVVS7M, OS: Windows, CPU Frequency: 2995 MHz, CPU Physical cores: 14, Host memory: 33968 MB
+#-----------------------------------------------------------
+start_gui
+open_project E:/Document_HH/ECE370/lab4/lab4.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source register_correct_test.tcl
+close_sim
+add_files -norecurse {E:/Document_HH/ECE370/lab4/lab4.srcs/sources_1/new/ALU_Control.v E:/Document_HH/ECE370/lab4/lab4.srcs/sources_1/new/Data_memory.v E:/Document_HH/ECE370/lab4/lab4.srcs/sources_1/new/ID_EX_REG.v E:/Document_HH/ECE370/lab4/lab4.srcs/sources_1/new/MEM_WB.v E:/Document_HH/ECE370/lab4/lab4.srcs/sources_1/new/ALU.v E:/Document_HH/ECE370/lab4/lab4.srcs/sources_1/new/EX_MEM.v E:/Document_HH/ECE370/lab4/lab4.srcs/sources_1/new/Registers.v E:/Document_HH/ECE370/lab4/lab4.srcs/sources_1/new/AddSum.v E:/Document_HH/ECE370/lab4/lab4.srcs/sources_1/new/Control_hazard.v E:/Document_HH/ECE370/lab4/lab4.srcs/sources_1/new/Forwarding_unit.v E:/Document_HH/ECE370/lab4/lab4.srcs/sources_1/new/IF_ID_REG_fixed.v E:/Document_HH/ECE370/lab4/lab4.srcs/sources_1/new/Instruction_Memory.v E:/Document_HH/ECE370/lab4/lab4.srcs/sources_1/new/Memory_Address_Hazard.v E:/Document_HH/ECE370/lab4/lab4.srcs/sources_1/new/Control.v E:/Document_HH/ECE370/lab4/lab4.srcs/sources_1/new/PipelineProcessor.v E:/Document_HH/ECE370/lab4/lab4.srcs/sources_1/new/Load_Hazard_control.v E:/Document_HH/ECE370/lab4/lab4.srcs/sources_1/new/ImmGen.v E:/Document_HH/ECE370/lab4/lab4.srcs/sources_1/new/Mux.v}
+launch_simulation
+source register_correct_test.tcl
+close_sim
+launch_simulation
+source register_correct_test.tcl
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+add_files -fileset sim_1 -norecurse E:/Document_HH/ECE370/lab4/lab4.srcs/sim_1/new/register_correct_test_vivado.v
+update_compile_order -fileset sim_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+close_sim
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+close_project
+open_project E:/Document_HH/ECE370/lab4/lab4.xpr
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files E:/Document_HH/ECE370/lab4/lab4.srcs/sim_1/new/tb_new.v] -no_script -reset -force -quiet
+remove_files  -fileset sim_1 E:/Document_HH/ECE370/lab4/lab4.srcs/sim_1/new/tb_new.v
+launch_simulation
+source register_correct_test.tcl
+close_sim
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+add_files -fileset sim_1 -norecurse E:/Document_HH/ECE370/lab4/lab4.srcs/sim_1/new/vivado_test.v
+update_compile_order -fileset sim_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top vivado_test [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation
+source vivado_test.tcl
+restart
+run 10000
+close_sim
